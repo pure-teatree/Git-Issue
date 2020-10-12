@@ -18,8 +18,7 @@
   
 3. git checkout main
   - main branch로 변경
-
-  ![3](https://user-images.githubusercontent.com/66557175/95734990-31e04400-0cbf-11eb-90d8-66d60c3fe6a8.png)
+    ![3](https://user-images.githubusercontent.com/66557175/95734990-31e04400-0cbf-11eb-90d8-66d60c3fe6a8.png)
 
 4. git merge master
   - master branch를 합침
@@ -27,8 +26,7 @@
 
 5. git push origin main 
   - 서버로 전송
-  
-  ![5](https://user-images.githubusercontent.com/66557175/95735002-360c6180-0cbf-11eb-839b-496a4aad4dd5.png)
+    ![5](https://user-images.githubusercontent.com/66557175/95735002-360c6180-0cbf-11eb-839b-496a4aad4dd5.png)
     
  **참고 사항:** 이미 공개 저장소에 Push 한 커밋을 Rebase 하지 마라. 로컬 브랜치에서 작업할 때는 히스토리를 정리하기 위해서 Rebase 할 수도 있지만, 리모트 등 어딘가에 Push로 내보낸 커밋에 대해서는 절대 Rebase 하지 말아야 한다. <br>
    출처: <https://git-scm.com/book/ko/v2/Git-%EB%B8%8C%EB%9E%9C%EC%B9%98-Rebase-%ED%95%98%EA%B8%B0>
